@@ -1,0 +1,61 @@
+body{
+    background-color: #efb54a;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+
+}
+
+.cup{
+    height: 140px;
+    width: 180px;
+    border: 6px solid #efb54a;  
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 0px 0px 70px 70px;
+    background: url(https://sdmntprwestus.oaiusercontent.com/files/00000000-f62c-5230-a52d-3933d9623792/raw?se=2025-04-02T02%3A03%3A48Z&sp=r&sv=2024-08-04&sr=b&scid=6693bc41-3cee-5415-b42a-edf8241c1b8c&skoid=51916beb-8d6a-49b8-8b29-ca48ed86557e&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-01T19%3A43%3A30Z&ske=2025-04-02T19%3A43%3A30Z&sks=b&skv=2024-08-04&sig=CcnGLWcSBTpgtw6V8t3v6aMDKhwMYPghKLW2O5PBnJs%3D);
+    box-shadow: 0px 0px 0px 6px white;
+    background-repeat: repeat-x; 
+    background-position: 0px 140px;
+    animation: fill 2.5s infinite;
+
+
+}
+@keyframes fill {
+    0% 
+    {background-position: 0px 140px;
+        }
+    20%
+     {background-position: -450px 100px;    
+        }
+    40% 
+    {background-position: -900px 50px;      
+        } 
+    80%
+     {background-position: -1350px -40px;    
+        }
+       100%
+       {
+        background-position: 0px 140px;    
+        }
+         
+}
+
+.handle{
+    height: 70px;
+    width: 40px;
+    background-color: transparent; 
+    border: 6px solid white;
+    position:relative; 
+    left: 186px;
+    top: 2px;
+    border-radius: 0px 25px 80px 0px;
+}
